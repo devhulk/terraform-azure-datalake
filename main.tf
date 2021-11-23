@@ -5,6 +5,7 @@ provider "azurerm" {
     features {}
 }
 
+
 resource "azurerm_resource_group" "example" {
   name     = "${var.team_name}-datalake"
   location = var.region
